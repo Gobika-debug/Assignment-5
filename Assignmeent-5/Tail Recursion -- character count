@@ -10,8 +10,8 @@ public class CharacterCounter {
     }
 
     public static void main(String[] args) {
-        String str = "programming";
-        char ch = 'g';
+        String str = sc.nextLine();
+        char ch = sc.next().charAt(0);
         int result = countChar(str, ch);
         System.out.println("Output: " + result);
     }
