@@ -1,3 +1,4 @@
+import java.util.*;
 public class PowerCalculator {
     public static int power(int base, int exponent) {
         if (exponent == 0)
@@ -10,8 +11,8 @@ public class PowerCalculator {
     }
 
     public static void main(String[] args) {
-        int base = 2;
-        int exponent = 5;
+        int base = sc.nextInt();
+        int exponent = sc.nextInt();
         int result = power(base, exponent);
         System.out.println("Output: " + result);
     }
